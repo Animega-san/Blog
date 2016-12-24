@@ -5,15 +5,16 @@
 #socialcounter ul li.social_item-wrapper{display:inline-table;width:25%;}
 #socialcounter ul li a.social_item{font-size:16px;color:#fff;display:block;box-shadow:inset 0 -2px 0 rgba(0,0,0,.1),0 4px 0 rgba(0,0,0,.05);overflow:hidden;text-align:center;padding:15px 0}
 #socialcounter ul li a.social_item i{background:rgba(0,0,0,0.12);width:46px;height:46px;line-height:46px;border-radius:100%}
-#socialcounter ul li a .textsoc,#socialcounter ul li a .count,#socialcounter .social_item .count{font-size:12px;display:block;padding:10px 0 0 0}
+#socialcounter ul li a .textsoc,#socialcounter ul li a .count{font-size:12px;display:block;padding:10px 0 0 0}
+#socialcounter ul li a .count{font-weight:700}
 #socialcounter .social_item .count{font-weight:600}
 #socialcounter ul li.social_item-wrapper:nth-child(2n+2){margin:0}
 #socialcounter ul li a.social_item.social_facebook{background:#3F5B9B}
 #socialcounter ul li.social_item-wrapper:hover .social_facebook{background:#2E4372}
 #socialcounter ul li a.social_item.social_twitter{background:#1C97DE}
 #socialcounter ul li.social_item-wrapper:hover .social_twitter{background:#1571A5}
-#socialcounter ul li a.social_item.social_rss{background:#fc9846}
-#socialcounter ul li.social_item-wrapper:hover .social_rss{background:#e68a3f}
+#socialcounter ul li a.social_item.total_posts{background:#fc9846}
+#socialcounter ul li.social_item-wrapper:hover .total_posts{background:#e68a3f}
 #socialcounter ul li a.social_item.social_google-plus{background:#E82C2C}
 #socialcounter ul li.social_item-wrapper:hover .social_google-plus{background:#BF2424}
 #socialcounter ul li a.social_item.social_youtube{background:#E22020}
@@ -26,6 +27,6 @@
 #total:before,#total_k:before{content:&#39;Total Fans:&#39;;font-weight:normal}
 
 @media screen and (max-width:320px) {
-#socialcounter ul li a .textsoc{display:none}}
+#socialcounter ul li a .textsoc,#socialcounter ul li a .count{display:none}}
 @media screen and (max-width:240px) {
 #socialcounter ul li.social_item-wrapper{display:block;float:none;width:100%}}
