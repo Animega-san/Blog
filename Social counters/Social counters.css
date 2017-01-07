@@ -13,8 +13,6 @@
 #socialcounter ul li.social_item-wrapper:hover .social_facebook{background:#2E4372}
 #socialcounter ul li a.social_item.social_twitter{background:#1C97DE}
 #socialcounter ul li.social_item-wrapper:hover .social_twitter{background:#1571A5}
-#socialcounter ul li a.social_item.total_posts{background:#fc9846}
-#socialcounter ul li.social_item-wrapper:hover .total_posts{background:#e68a3f}
 #socialcounter ul li a.social_item.social_google-plus{background:#E82C2C}
 #socialcounter ul li.social_item-wrapper:hover .social_google-plus{background:#BF2424}
 #socialcounter ul li a.social_item.social_youtube{background:#E22020}
@@ -23,8 +21,10 @@
 #socialcounter ul li.social_item-wrapper:hover .social_instagram{background:#6F583C}
 #socialcounter ul li a.social_item.social_pinterest{background:#CA2027}
 #socialcounter ul li.social_item-wrapper:hover .social_pinterest{background:#AB1B21}
-#total,#total_k{padding:10px;font-weight:bold;font-size:20px}
-#total:before,#total_k:before{content:&#39;Total Fans:&#39;;font-weight:normal}
+#socialcounter ul li a.social_item.social_github{background:#444444}
+#socialcounter ul li.social_item-wrapper:hover .social_github{background:#2b2b2b}
+#socialcounter ul li a.social_item.total_posts{background:#fc9846}
+#socialcounter ul li.social_item-wrapper:hover .total_posts{background:#e68a3f}
 
 @media screen and (max-width:320px) {
 #socialcounter ul li a .textsoc,#socialcounter ul li a .count{display:none}}
