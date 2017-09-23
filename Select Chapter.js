@@ -19,3 +19,4 @@ $(document).ready(function(){
   $(".ChapterList").click(function(){
     $(".ChapterSelect").slideToggle("slow");
   });
+});
