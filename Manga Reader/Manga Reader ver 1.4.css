@@ -1,0 +1,38 @@
+/* Homepage */
+.active-manga{background:#f6f6f6;font-weight:bold}
+.chapter-manga{padding:0 10px}
+.content-manga{text-align:center;display:grid}
+.cover-manga{display:none}
+.index-manga{padding:0 10px}
+.left-manga{float:left;display:-webkit-box;text-align:left}
+.center-manga{display:inline-block}
+.right-manga{float:right;display:flex}
+.loading {background: url(https://2.bp.blogspot.com/--Fky3wbf-Aw/WOxkDIj3P_I/AAAAAAAACHg/3RtUL-kaQCk_h_zON5L2w6OFbpOcuAKsQCLcB/s1600/loading.gif) 50% 50% no-repeat rgb(255,255,255)}
+.sitemap-manga{margin:auto 10px}
+.show-manga img{margin:15px auto}
+
+/* Bottom */
+.back-to-top{padding:0 20px!important;margin:0 5px}
+.back-to-top i{font-size:20px;font-weight:bold}
+.back-to-top,.chapter-manga span,.completed-chapter span,.download-manga span,.index-manga span,.mode-manga span,.next-chapter span,.next-manga span,.ongoing-chapter span,.prev-chapter span,.prev-manga span,.sitemap-manga span{cursor:pointer;font-weight:200;background:#e74c3c;color:#fff;padding:4px 10px;border-radius:3px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+.back-to-top:hover,.chapter-manga span:hover,.completed-chapter span,.current-manga:hover,.download-manga span:hover,.index-manga span:hover,.mode-manga span:hover,.next-chapter span:hover,.next-manga span:hover,.ongoing-chapter span:hover,.prev-chapter span:hover,.prev-manga span:hover,.sitemap-manga span:hover{background:#ec7063}
+.coming-soon span,.completed-chapter span,.ongoing-chapter span{cursor:default!important}
+
+/* Menu*/
+.chapter-manga li a,.manga li a,.mode-manga li a{cursor:pointer;line-height:30px;min-height:30px;padding:0 20px}
+.index-manga li,.chapter-manga li,.mode-manga li{list-style:none;position:relative}
+.chapter-manga ul,.index-manga ul,.mode-manga ul{display:none;background:#fff;position:absolute;z-index:9;box-shadow:0 0 0 1px rgba(68, 68, 68, 0.11);box-sizing:border-box;overflow:auto;max-height:150px;margin:0}
+.chapter-manga ul,.mode-manga ul{text-align:left}
+.mode-manga ul{bottom:100%;margin:0 0 12% 35%!important}
+.index-manga ul{bottom:100%;margin:0 0 22% 15%!important}
+ul.full-mode-manga{margin:15px auto}
+ul.full-mode-manga li{text-align:center;list-style:none;margin-bottom:15px}
+
+@media screen and (max-width:480px) {
+.chapter-manga li a{padding:0 10px}
+.chapter-manga ul{margin:0 -70%}
+.content-manga,.control-manga{text-align:center;display:inline-block}
+.left-manga{float:none;display:flex;margin:5% 0}
+.center-manga{margin:0 2%}
+.right-manga{float:none;display:inline-flex}
+}
