@@ -7,7 +7,7 @@
 .left-manga{float:left;display:-webkit-box;text-align:left}
 .center-manga{display:inline-block}
 .right-manga{float:right;display:flex}
-.loading {background: url(https://2.bp.blogspot.com/--Fky3wbf-Aw/WOxkDIj3P_I/AAAAAAAACHg/3RtUL-kaQCk_h_zON5L2w6OFbpOcuAKsQCLcB/s1600/loading.gif) 50% 50% no-repeat rgb(255,255,255)}
+.loading {background: url(https://2.bp.blogspot.com/--Fky3wbf-Aw/WOxkDIj3P_I/AAAAAAAACHg/3RtUL-kaQCk_h_zON5L2w6OFbpOcuAKsQCLcB/s1600/loading.gif) no-repeat 50% 160px}
 .sitemap-manga{margin:auto 10px}
 .show-manga img{margin:15px auto}
 
