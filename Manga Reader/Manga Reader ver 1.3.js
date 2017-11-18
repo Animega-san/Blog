@@ -1,6 +1,6 @@
 //<![CDATA[
 //////////////////////////////////////
-// Manga Reader ver 1.3 Final for blogger
+// Manga Reader ver 1.3 beta for blogger
 // Compiled Javascript (from any resource)
 // License Creative Commons Attribution-Noncommercial-Share Alike 3.0 License.
 // Free Copy, Free Use, Free Modification, Give proper credit
