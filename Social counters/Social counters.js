@@ -1,5 +1,4 @@
-$(document).ready(function () {
-function (e) {
+$(document).ready(function (e) {
     e.fn.SocialCounter = function (t) {
         function o() {
             e.ajax({
@@ -114,5 +113,4 @@ function (e) {
         };
         g(), "" != k.facebook_user && "" != k.facebook_token && s(), "" != k.instagram_user && "" != k.instagram_token && n(), "" != k.google_plus_id && "" != k.google_plus_key && u(), "" != k.youtube_user && "" != k.youtube_key && i(), "" != k.pinterest_user && o(), "" != k.github_user && p()
     }
-};
 });
