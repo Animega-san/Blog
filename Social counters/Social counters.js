@@ -26,7 +26,6 @@
           var k = kFormatter(followers);
           $('#socialcounter .social_item.social_facebook .count').append(k); 
           $('#socialcounter .social_item.social_facebook').attr('href','https://facebook.com/'+settings.facebook_user);
-          getTotal(followers); 
         } 
       }); 
     }
@@ -43,7 +42,6 @@
           var k = kFormatter(followers);
           $('#socialcounter .social_item.social_instagram .count').append(k);
           $('#socialcounter .social_item.social_instagram').attr('href','https://instagram.com/'+settings.instagram_user);
-          getTotal(followers); 
         }
       });
     }
